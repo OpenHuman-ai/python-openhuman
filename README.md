@@ -1,7 +1,9 @@
 # OpenHuman.ai - Relastic virtual human assistant
 
 Homepage: http://OpenHuman.ai/
+
 Github: https://github.com/OpenHuman-ai/python-openhuman
+
 Orgs: https://github.com/OpenHuman-ai
 
 ## Installation Steps
@@ -18,13 +20,17 @@ python3 setup.py sdist bdist_wheel
 
 4. Install the twine package, which is used to upload your package to PyPI:
 
-```
+```bash
 pip install twine
 ```
 
 5. Upload your package to PyPI using twine:
 
-```
+Remove old version before upload new
+
+
+```bash
+rm dist/*
 twine upload dist/*
 ```
 

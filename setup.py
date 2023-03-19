@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='openhuman',
-    version='1.1.2',
+    version='1.1.3',
     author='OpenHuman',
     author_email='openhuman.ai@gmail.com',
     summary="Virtual human assistant",
