@@ -7,7 +7,6 @@ setup(
     author_email='openhuman.ai@gmail.com',
     summary="Virtual human assistant",
     description='OpenHuman: Virtual human assistant',
-    home_page="openhuman.ai",
     license_file="LICENSE",
     install_requires=[
          # List your package's dependencies here
