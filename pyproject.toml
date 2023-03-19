@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openhuman"
-version = "0.0.1"
+version = "1.1.2"
 description = "Python package for OpenHuman - a virtual human assistance"
 readme = "README.md"
-authors = [{ name = "Real Python", email = "openhuman.ai@gmail.com" }]
+authors = [{ name = "OpenHuman", email = "openhuman.ai@gmail.com" }]
 license = { file = "LICENSE" }
 classifiers = [
     "License :: OSI Approved :: MIT License",
@@ -31,7 +31,7 @@ requires-python = ">=3.7"
 
 
 [tool.bumpver]
-current_version = "1.1.1"
+current_version = "1.1.2"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message  = "bump version {old_version} -> {new_version}"
 commit          = true
